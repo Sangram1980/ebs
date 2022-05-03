@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'ebs';
+  
+  title = 'welcome to Elevate business solution';
+  invalue : any;
+  
+  constructor(){
+    this.title = "EBS";
+    this.invalue = "";
+  }
 }
